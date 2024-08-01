@@ -3,6 +3,7 @@ Bank Loan Analysis
 The main obejective of this project is to examine bank loan data to learn more about loan performance and customer behavior. the analysis utilizez various tools such as Tableau for advanced analytics and reporting, Power Bi for interractive data visualization ,MySQL for database management and Excel for data pretreatment
 
 Data Sources
+
 The dataset used for this analysis consist of historical bank data including 
  i. information about customer
 ii. loan amount
@@ -13,8 +14,9 @@ vi. credit scores
 vii.Loan Grade,and other relevant attributes.The data is sourced from the bank's internal database and stored 
    in a MySQL database for easy access and manipulation of data
 
-Analysis Process
-1.Data Preprocessing with Excel:
+Analysis Process 
+
+ 1.Data Preprocessing with Excel:
   *cleaned and prepared the raw loan data in Excel,including removing duplicates,handling missing values and 
    formatting datatype.
   *performed exploratory dat analysis(EDA) to identify patterns,outliers,and trends in the loan data
@@ -33,7 +35,11 @@ Analysis Process
    *Created visually appearing and insightful dashboards to present findings and recommendations to 
     stakeholders.
    *Integrated Tableau dashboards with Power Bi reports dor a comprehensive  view of the analysis results.
+   
+   
   Required KPI's
+
+  
   1.Year wise loan amount stats
   2.Grade and Subgrade wise revol_bal
   3. Total Payment for varified Status Vs Total Payment for Non Varified Status
