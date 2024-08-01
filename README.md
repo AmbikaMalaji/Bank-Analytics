@@ -1,56 +1,47 @@
-# Bank-Analytics
- Overview
+Bank Loan Analysis
+
+The main obejective of this project is to examine bank loan data to learn more about loan performance and customer behavior. the analysis utilizez various tools such as Tableau for advanced analytics and reporting, Power Bi for interractive data visualization ,MySQL for database management and Excel for data pretreatment
+
+Data Sources
+The dataset used for this analysis consist of historical bank data including 
+ i. information about customer
+ii. loan amount
+iii.purpose of loan
+iv. invested fund
+v.  repayment status
+vi. credit scores
+vii.Loan Grade,and other relevant attributes.The data is sourced from the bank's internal database and stored 
+   in a MySQL database for easy access and manipulation of data
+
+Analysis Process
+1.Data Preprocessing with Excel:
+  *cleaned and prepared the raw loan data in Excel,including removing duplicates,handling missing values and 
+   formatting datatype.
+  *performed exploratory dat analysis(EDA) to identify patterns,outliers,and trends in the loan data
+2.Database Management with MySQL:
+  *Imported the preprocessed loan data into a MySQL database for efficient storage and retrieval
+  *Created SQL queries to perform data transformation,aggregations,and calculations as required for the analysis 
+  Note-Datasets are added using the insert data wizard.
+3.Interactive Visualization with Power BI:
+  *Connected Power Bi to the MySQL database to import the loan data.
+  *Designed interative dashboard and report to visualize key matrics such as loan portfolio 
+   composition,delinquency rates, and customer demographics. 
+  *Implemented slicers,filters and drill-down functionalities for users to Explore the data dynamically.
+4.Avanced Analytics and Reporting with Tableau:
+   *leveraged Tableau for more advanced analytics,including predictive modeling,analysis and grographical 
+    mapping of loan performance.
+   *Created visually appearing and insightful dashboards to present findings and recommendations to 
+    stakeholders.
+   *Integrated Tableau dashboards with Power Bi reports dor a comprehensive  view of the analysis results.
+  Required KPI's
+  1.Year wise loan amount stats
+  2.Grade and Subgrade wise revol_bal
+  3. Total Payment for varified Status Vs Total Payment for Non Varified Status
+  4. State wise and last_credit_pull_d wise loan status
+  5. Home ownership Vs lastpayment date stats
+  
  
-This repository contains two comprehensive projects focused on the analysis and visualization of insurance data. These projects leverage Excel and Tableau to provide insightful dashboards that facilitate data-driven decision-making. Below, you will find detailed descriptions of each project.
+  
+  
+   
 
-Projects
-1. Excel Dashboard
-Objective: To clean, model, and visualize insurance data effectively using Microsoft Excel.
-
-Key Steps:
-Data Cleaning:
-
-Imported raw insurance data into Excel.
-Conducted thorough data cleaning to ensure accuracy and consistency, including handling missing values and correcting data types.
-Data Modeling:
-
-Utilized Power Pivot to create relationships between different data tables.
-Developed calculated columns and measures to support data analysis.
-Key Performance Indicators (KPIs):
-
-Identified and defined relevant KPIs to measure various aspects of the insurance data.
-Built dynamic measures using DAX (Data Analysis Expressions) to track these KPIs.
-Interactive Dashboard Development:
-
-Created interactive PivotTables and PivotCharts.
-Designed a user-friendly dashboard for effective data visualization and analysis.
-Enabled drill-down features to allow users to explore data at different levels of granularity.
-Outcomes:
-The Excel dashboard provides a comprehensive overview of the insurance data, offering insights into claims, policyholder demographics, and financial performance.
-It facilitates quick decision-making through interactive visual elements and detailed KPIs.
-2. Tableau Dashboard
-Objective: To leverage Tableau for advanced data visualization and insight generation from an insurance dataset.
-
-Key Steps:
-Data Preparation:
-
-Cleaned and pre-processed the insurance dataset to ensure quality and consistency.
-Established relationships between different tables within Tableau to integrate the data comprehensively.
-Calculated Fields and Measures:
-
-Developed calculated fields to perform necessary computations and derive new insights.
-Created measures to track performance metrics and trends.
-Dashboard Development:
-
-Built an interactive and visually appealing Tableau dashboard.
-Included various chart types to represent data effectively.
-Implemented filters and parameters to allow users to customize their views and analyses.
-Insights and Actionable Data:
-
-Analyzed the visualized data to uncover patterns and trends in insurance claims and policyholder behavior.
-Derived actionable insights that can be utilized for strategic decision-making and process improvements.
-Outcomes:
-The Tableau dashboard provides an in-depth analysis of the insurance data, highlighting key trends and metrics.
-It enables users to explore data interactively and gain valuable insights to inform business strategies.
-Conclusion
-These projects demonstrate the effective use of Excel and Tableau for insurance data analysis. By cleaning, modeling, and visualizing the data, we can extract meaningful insights and drive data-informed decisions. Explore the dashboards to understand the intricacies of insurance data and leverage these insights for improved business outcomes.
